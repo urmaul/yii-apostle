@@ -1,0 +1,25 @@
+{
+    "name": "urmaul/yii-apostle",
+    "type": "library",
+    "description": "Apostle.io wrapper for Yii 1.1.",
+    "keywords": ["yii", "apostle.io", "email"],
+    "homepage": "https://github.com/urmaul/yii-apostle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bogdan Kolbik"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "apostle/apostle-php": "0.1.4"
+    },
+    "require-dev": {
+        "yiisoft/yii": "~1.1"
+    },
+    "autoload": {
+        "classmap": [
+            "EnumAttributesBehavior.php"
+        ]
+    }
+}
