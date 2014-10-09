@@ -1,6 +1,6 @@
 # yii-apostle
 
-Apostle wrapper for Yii 1.1. It's an CApplicationComponent with one public method - `send($template, $to, $data = array())`.
+[Apostle PHP](https://github.com/apostle/apostle-php) wrapper for Yii 1.1. It's an CApplicationComponent with one public method - `send($template, $to, $data = array())`.
 
 # Installing
 
