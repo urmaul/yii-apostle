@@ -40,12 +40,12 @@ class Component extends \CApplicationComponent
         if (!$this->enabled)
             return;
         
-        $data += [
+        $data += array(
             'from' => $this->from,
             'appName' => \Yii::app()->name,
-        ];
+        );
         
-        $failures = [];
+        $failures = array();
         $failure = null;
         
         if (is_array($to)) {
@@ -79,7 +79,7 @@ class Component extends \CApplicationComponent
      */
     private function newMail($template, $to, $data)
     {
-        $data += ['email' => $to];
+        $data += array('email' => $to);
         
         return new Mail($template, $data);
     }
